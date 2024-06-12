@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #000000 url("images/bg_final.gif") bottom left; /* ALTERADO de bg.jpg para bg.png */
+		background: #000000 url("images/stars2.gif") bottom left; /* ALTERADO de bg.jpg para bg.png */
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -514,7 +514,7 @@
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 2rem;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
@@ -523,9 +523,25 @@
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: 0.85;
 		}
 
+		#header div {
+			display: flex;
+			flex-direction: column;
+			overflow-y: auto;
+			height: 800px;
+		}
+
+		#header blockquote {
+
+				margin: 20px 0;
+				padding: 10px 20px;
+				background: transparent;
+				border-left: 5px solid #ccc;
+				font-style: italic;
+	
+		}
 		#header nav {
 			margin: 1.5em 0 0 0;
 		}

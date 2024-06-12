@@ -84,7 +84,16 @@ h1 {
 	width: 100%;
 }
 .avtar img {
+	width: 148px;
+	height: 148px;
+	object-fit: contain;
+	border-radius: 999px;
+	border: 1px solid white;
   margin: 2em 0 0;
+}
+
+#username {
+	color: white;
 }
 .head-info {
   padding: 5px 0;
