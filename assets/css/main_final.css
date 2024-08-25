@@ -1055,3 +1055,9 @@
 		#header nav {
 			padding: 0 1em;
 		} }
+
+
+		#lastSend {
+			color: aqua;
+			margin-left: 16px;
+		}
